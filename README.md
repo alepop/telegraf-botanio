@@ -7,7 +7,7 @@ $ npm install telegraf-botanio
 ## Example
 ```js
 const Telegraf = require('telegraf')
-const TelegrafBotanio = require('../lib/botanio')
+const TelegrafBotanio = require('telegraf-botanio')
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 const botanio = new TelegrafBotanio(process.env.BOTANIO_TOKEN)
